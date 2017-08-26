@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView textAction, textPressure, textVelocityX, textVelocityY,
+    TextView textAction, textPressure, textTime, textVelocityX, textVelocityY,
             textMaxVelocityX, textMaxVelocityY;
     VelocityTracker velocityTracker = null;
 
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textAction = (TextView) findViewById(R.id.action);
         textPressure = (TextView) findViewById(R.id.pressure);
+        textTime = (TextView) findViewById(R.id.timer);
         textVelocityX = (TextView) findViewById(R.id.velocityx);
         textVelocityY = (TextView) findViewById(R.id.velocityy);
         textMaxVelocityX = (TextView) findViewById(R.id.maxvelocityx);
@@ -36,7 +37,9 @@ public class MainActivity extends AppCompatActivity {
 
         int action = event.getActionMasked();
         String pressed = String.valueOf(event.getPressure());
+        String timed = String.valueOf(event.getDownTime() + "~/~" + event.getEventTime());
         textPressure.setText("Pressure: " + pressed);
+        textTime.setText("Times: " + timed);
         switch (action) {
             case MotionEvent.ACTION_DOWN:
                 if (velocityTracker == null) {
@@ -86,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
         Log.d("Logged Pressure", pressed);
-
+        Log.d("Logged Time", timed);
         return true;
     }
 

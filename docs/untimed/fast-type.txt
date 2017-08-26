@@ -1,0 +1,31 @@
+08-26 15:23:54.773 23810-23810/com.example.kaustubh.swypepressure D/Logged Pressure: 0.49803925
+08-26 15:23:54.842 23810-23810/com.example.kaustubh.swypepressure D/Logged Pressure: 0.49803925
+08-26 15:23:54.849 23810-23810/com.example.kaustubh.swypepressure D/Logged Pressure: 0.49803925
+08-26 15:23:54.906 23810-23810/com.example.kaustubh.swypepressure D/Logged Velocity-X, Y: (0.0,0.0)
+08-26 15:23:54.906 23810-23810/com.example.kaustubh.swypepressure D/Logged Pressure: 0.49411768
+08-26 15:23:57.691 23971-23971/com.example.kaustubh.swypepressure D/Logged Pressure: 0.43529415
+08-26 15:23:57.724 23971-23971/com.example.kaustubh.swypepressure D/Logged Velocity-X, Y: (2.5078612E-5,4.7841072E-4)
+08-26 15:23:57.724 23971-23971/com.example.kaustubh.swypepressure D/Logged Pressure: 0.43137258
+08-26 15:23:57.726 23971-23971/com.example.kaustubh.swypepressure D/Logged Pressure: 0.43137258
+08-26 15:23:57.769 23971-23971/com.example.kaustubh.swypepressure D/Logged Pressure: 0.4156863
+08-26 15:23:57.797 23971-23971/com.example.kaustubh.swypepressure D/Logged Velocity-X, Y: (-0.14141709,-0.4711295)
+08-26 15:23:57.797 23971-23971/com.example.kaustubh.swypepressure D/Logged Pressure: 0.41176474
+08-26 15:24:00.834 24066-24066/com.example.kaustubh.swypepressure D/Logged Pressure: 0.3137255
+08-26 15:24:00.859 24066-24066/com.example.kaustubh.swypepressure D/Logged Pressure: 0.3137255
+08-26 15:24:00.879 24066-24066/com.example.kaustubh.swypepressure D/Logged Pressure: 0.49803925
+08-26 15:24:04.062 24155-24155/com.example.kaustubh.swypepressure D/Logged Pressure: 0.49803925
+08-26 15:24:04.156 24155-24155/com.example.kaustubh.swypepressure D/Logged Velocity-X, Y: (0.0,0.0)
+08-26 15:24:04.156 24155-24155/com.example.kaustubh.swypepressure D/Logged Pressure: 0.49411768
+08-26 15:24:04.158 24155-24155/com.example.kaustubh.swypepressure D/Logged Pressure: 0.49411768
+08-26 15:24:04.184 24155-24155/com.example.kaustubh.swypepressure D/Logged Pressure: 0.43921572
+08-26 15:24:04.223 24155-24155/com.example.kaustubh.swypepressure D/Logged Velocity-X, Y: (-5.697581E-4,8.0869714E-4)
+08-26 15:24:04.223 24155-24155/com.example.kaustubh.swypepressure D/Logged Pressure: 0.43529415
+08-26 15:24:07.125 24247-24247/? D/Logged Pressure: 0.48627454
+08-26 15:24:07.196 24247-24247/? D/Logged Pressure: 0.48627454
+08-26 15:24:07.206 24247-24247/? D/Logged Pressure: 0.49803925
+08-26 15:24:07.269 24247-24247/? D/Logged Velocity-X, Y: (0.0,0.0)
+08-26 15:24:07.270 24247-24247/? D/Logged Pressure: 0.49411768
+08-26 15:24:07.270 24247-24247/? D/Logged Pressure: 0.49411768
+08-26 15:24:07.276 24247-24247/? D/Logged Pressure: 0.49411768
+08-26 15:24:07.330 24247-24247/? D/Logged Velocity-X, Y: (0.0,0.0)
+08-26 15:24:07.331 24247-24247/? D/Logged Pressure: 0.49411768

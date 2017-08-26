@@ -72,7 +72,7 @@
         android:layout_marginRight="8dp" />
 
     <TextView
-        android:id="@+id/velocityx"
+        android:id="@+id/timer"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         tools:layout_constraintTop_creator="1"
@@ -81,6 +81,16 @@
         app:layout_constraintTop_toBottomOf="@+id/pressure"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="@+id/pressure" />
+    <TextView
+        android:id="@+id/velocityx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/timer"
+        app:layout_constraintTop_toBottomOf="@+id/timer"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/timer" />
 
     <TextView
         android:id="@+id/maxvelocityx"
