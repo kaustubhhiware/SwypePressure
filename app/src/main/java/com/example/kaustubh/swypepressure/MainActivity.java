@@ -37,54 +37,6 @@ public class MainActivity extends AppCompatActivity {
         int action = event.getActionMasked();
         String pressed = String.valueOf(event.getPressure());
         textPressure.setText("Pressure: " + pressed);
-        switch (action) {
-            case MotionEvent.ACTION_DOWN:
-                if (velocityTracker == null) {
-                    velocityTracker = VelocityTracker.obtain();
-                } else {
-                    velocityTracker.clear();
-                }
-                velocityTracker.addMovement(event);
-                maxXVelocity = 0;
-                maxYVelocity = 0;
-
-                textVelocityX.setText("X-velocity (pixel/s): 0");
-                textVelocityY.setText("Y-velocity (pixel/s): 0");
-                textMaxVelocityX.setText("max. X-velocity: 0");
-                textMaxVelocityY.setText("max. Y-velocity: 0");
-
-                break;
-            case MotionEvent.ACTION_MOVE:
-                velocityTracker.addMovement(event);
-                velocityTracker.computeCurrentVelocity(1000);
-                //1000 provides pixels per second
-
-                float xVelocity = velocityTracker.getXVelocity();
-                float yVelocity = velocityTracker.getYVelocity();
-
-                if(xVelocity > maxXVelocity){
-                    //max in right side
-                    maxXVelocity = xVelocity;
-                }
-
-                if(yVelocity > maxYVelocity){
-                    //Max in down side
-                    maxYVelocity = yVelocity;
-                }
-
-                textVelocityX.setText("X-velocity (pixel/s): " + xVelocity);
-                textVelocityY.setText("Y-velocity (pixel/s): " + yVelocity);
-                textMaxVelocityX.setText("max. X-velocity: " + maxXVelocity);
-                textMaxVelocityY.setText("max. Y-velocity: " + maxYVelocity);
-                String vstat = "(" + String.valueOf(xVelocity)+ "," + String.valueOf(yVelocity) + ")";
-                Log.d("Logged Velocity-X, Y", vstat);
-
-                break;
-            case MotionEvent.ACTION_UP:
-            case MotionEvent.ACTION_CANCEL:
-                velocityTracker.recycle();
-                break;
-        }
         Log.d("Logged Pressure", pressed);
 
         return true;
