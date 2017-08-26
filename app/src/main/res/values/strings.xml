@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SwypePressure</string>
+    <string name="pressure_velocity_and_duration">Pressure, velocity and duration</string>
+    <string name="android_swype_action">Android swype action</string>
+    <string name="describe">Describe</string>
+</resources>
